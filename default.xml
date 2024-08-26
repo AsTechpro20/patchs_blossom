@@ -16,6 +16,11 @@
            fetch="https://github.com/ArrowOS"
            revision="arrow-13.1" />
 
+  <remote name="droidx"
+        fetch="https://github.com/DroidX-UI"
+        sync-j="8"
+        revision="13" />
+
   <remote name="gapps"
         fetch="https://gitlab.com/OldCrocs"
         revision="13" />
@@ -24,9 +29,9 @@
         fetch="https://github.com/Old-Crocs"
         revision="13" />
 
-  <remote name="afterlife"
+  <remote name="afx"
           fetch="https://github.com/AfterLifeOS"
-          revision="refs/tags/4.0" />
+          revision="13x" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r82"/>
   <contactinfo bugurl="go/repo-bug" />
